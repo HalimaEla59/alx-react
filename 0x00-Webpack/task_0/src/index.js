@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>webpack</title>
-</head>
-<body>
-<script src="./main.js"></script>
-</body>
-</html>
+import $ from 'jquery';
+
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
